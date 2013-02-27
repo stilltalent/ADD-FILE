@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  animations
 //
-//  Created by  on 11-10-28.
-//  Copyright (c) 2011年 DremTop. All rights reserved.
+//  Created by v2m  on 11-10-28.
+//  Copyright (c) 2011年 DT. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -27,7 +27,8 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    //self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

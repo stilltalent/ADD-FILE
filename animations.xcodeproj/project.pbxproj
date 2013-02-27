@@ -15,6 +15,12 @@
 		D40A5AA0145A578700BC50C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D40A5A9F145A578700BC50C1 /* AppDelegate.m */; };
 		D40A5AA3145A578700BC50C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40A5AA2145A578700BC50C1 /* ViewController.m */; };
 		D40A5AA6145A578700BC50C1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D40A5AA4145A578700BC50C1 /* ViewController.xib */; };
+		D40A5AAE145A57BC00BC50C1 /* l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D40A5AAC145A57BC00BC50C1 /* l.jpg */; };
+		D40A5AAF145A57BC00BC50C1 /* m.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D40A5AAD145A57BC00BC50C1 /* m.jpg */; };
+		D40A5AB3145A610C00BC50C1 /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40A5AB1145A610C00BC50C1 /* AnotherViewController.m */; };
+		D40A5AB4145A610C00BC50C1 /* AnotherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D40A5AB2145A610C00BC50C1 /* AnotherViewController.xib */; };
+		D40A5B12145A878200BC50C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40A5B11145A878200BC50C1 /* QuartzCore.framework */; };
+		D40A5B70145A908D00BC50C1 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D40A5B6F145A908C00BC50C1 /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +28,22 @@
 		D40A5A8F145A578700BC50C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D40A5A91145A578700BC50C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D40A5A93145A578700BC50C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D40A5A97145A578700BC50C1 /* animations-Info.plist */ = {isa = PBXFileReference; path = "animations-Info.plist"; sourceTree = "<group>"; };
+		D40A5A97145A578700BC50C1 /* animations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "animations-Info.plist"; sourceTree = "<group>"; };
 		D40A5A99145A578700BC50C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D40A5A9B145A578700BC50C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D40A5A9D145A578700BC50C1 /* animations-Prefix.pch */ = {isa = PBXFileReference; path = "animations-Prefix.pch"; sourceTree = "<group>"; };
-		D40A5A9E145A578700BC50C1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D40A5A9D145A578700BC50C1 /* animations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "animations-Prefix.pch"; sourceTree = "<group>"; };
+		D40A5A9E145A578700BC50C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D40A5A9F145A578700BC50C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D40A5AA1145A578700BC50C1 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D40A5AA1145A578700BC50C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D40A5AA2145A578700BC50C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D40A5AA5145A578700BC50C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D40A5AAC145A57BC00BC50C1 /* l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = l.jpg; sourceTree = "<group>"; };
+		D40A5AAD145A57BC00BC50C1 /* m.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = m.jpg; sourceTree = "<group>"; };
+		D40A5AB0145A610C00BC50C1 /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
+		D40A5AB1145A610C00BC50C1 /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
+		D40A5AB2145A610C00BC50C1 /* AnotherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherViewController.xib; sourceTree = "<group>"; };
+		D40A5B11145A878200BC50C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D40A5B6F145A908C00BC50C1 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40A5B12145A878200BC50C1 /* QuartzCore.framework in Frameworks */,
 				D40A5A90145A578700BC50C1 /* UIKit.framework in Frameworks */,
 				D40A5A92145A578700BC50C1 /* Foundation.framework in Frameworks */,
 				D40A5A94145A578700BC50C1 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +64,7 @@
 		D40A5A80145A578700BC50C1 = {
 			isa = PBXGroup;
 			children = (
+				D40A5B11145A878200BC50C1 /* QuartzCore.framework */,
 				D40A5A95145A578700BC50C1 /* animations */,
 				D40A5A8E145A578700BC50C1 /* Frameworks */,
 				D40A5A8C145A578700BC50C1 /* Products */,
@@ -82,6 +97,12 @@
 				D40A5AA1145A578700BC50C1 /* ViewController.h */,
 				D40A5AA2145A578700BC50C1 /* ViewController.m */,
 				D40A5AA4145A578700BC50C1 /* ViewController.xib */,
+				D40A5AB0145A610C00BC50C1 /* AnotherViewController.h */,
+				D40A5AB1145A610C00BC50C1 /* AnotherViewController.m */,
+				D40A5AB2145A610C00BC50C1 /* AnotherViewController.xib */,
+				D40A5AAC145A57BC00BC50C1 /* l.jpg */,
+				D40A5AAD145A57BC00BC50C1 /* m.jpg */,
+				D40A5B6F145A908C00BC50C1 /* 3.jpg */,
 				D40A5A96145A578700BC50C1 /* Supporting Files */,
 			);
 			path = animations;
@@ -151,6 +172,10 @@
 			files = (
 				D40A5A9A145A578700BC50C1 /* InfoPlist.strings in Resources */,
 				D40A5AA6145A578700BC50C1 /* ViewController.xib in Resources */,
+				D40A5AAE145A57BC00BC50C1 /* l.jpg in Resources */,
+				D40A5AAF145A57BC00BC50C1 /* m.jpg in Resources */,
+				D40A5AB4145A610C00BC50C1 /* AnotherViewController.xib in Resources */,
+				D40A5B70145A908D00BC50C1 /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +189,7 @@
 				D40A5A9C145A578700BC50C1 /* main.m in Sources */,
 				D40A5AA0145A578700BC50C1 /* AppDelegate.m in Sources */,
 				D40A5AA3145A578700BC50C1 /* ViewController.m in Sources */,
+				D40A5AB3145A610C00BC50C1 /* AnotherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
